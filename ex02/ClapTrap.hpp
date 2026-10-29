@@ -1,4 +1,3 @@
-
 #ifndef CLAPTRAP_HPP
 #define CLAPTRAP_HPP
 
@@ -7,11 +6,11 @@
 
 class ClapTrap
 {
-    private:
-        std::string _Name;
-        unsigned int _HitPoints;
-        unsigned int _Energy;
-        unsigned int _AttackPoints;
+    protected:
+        std::string _name;
+        unsigned int _hit;
+        unsigned int _energy;
+        unsigned int _attack;
 
     public:
         ClapTrap();
